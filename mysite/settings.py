@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'blog',
+    'taggit',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -130,8 +131,8 @@ STATICFILES_DIRS = [
 
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'indigomx9@gmail.com'
-EMAIL_HOST_PASSWORD = '@Thu21Day$'
+EMAIL_HOST_USER = 'my_email@gmail.com'
+EMAIL_HOST_PASSWORD = 'My_Password123'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
